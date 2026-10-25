@@ -1,7 +1,25 @@
 # J616s audio evidence and device names
 
 This is a development reference for Mac16,7 / J616sAP, chip 0x6040,
-board 6. No J616s Linux boot, audio card, PCM or mixer ABI has been qualified.
+board 6.
+
+## Linux microphone
+
+The `aop_audio` card's long name is "MacBook Pro J616 High-Power Audio
+Interface", with card ID `AppleJ616HPAI`. Its HiFi verb reuses the shared
+three-channel array configuration and provides one `Mic` device on PCM 0.
+The kernel accepts Float32LE capture at 48 kHz. LPAI is internal to the AOP
+driver and has no PCM or UCM route on this card.
+
+Install this entry together with the matching asahi-audio J616 microphone
+graph and rule to present "MacBook Pro J616 Microphone" to applications.
+Native capture and desktop visibility still need hardware qualification.
+No speaker playback is needed for those checks.
+
+## Earlier bring-up reference
+
+The observations below predate the Linux microphone entry and do not
+qualify the current kernel ABI.
 
 ## Observed devices and routes
 

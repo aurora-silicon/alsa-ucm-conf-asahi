@@ -10,5 +10,6 @@ These configuration files are licensed, to anybody obtaining a copy, under the t
 
 ## J616s development reference
 
-See [README.J616s.md](README.J616s.md) for verified capture facts and native
-device names. This reference adds no J616s runtime UCM configuration.
+See [README.J616s.md](README.J616s.md) for the J616 HPAI microphone entry
+and the earlier bring-up evidence. The microphone entry needs native
+hardware qualification with the matching asahi-audio configuration.
