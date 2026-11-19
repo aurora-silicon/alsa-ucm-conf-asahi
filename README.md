@@ -1,4 +1,4 @@
-# alsa-ucm-conf-asahi
+# alsa-ucm-conf-aurora
 
 This tree contains so-called ALSA UCM configuration describing internal
 sound peripherals on Apple hardware. This is to overlay the parent
@@ -6,7 +6,7 @@ alsa-ucm-conf package at /usr/share/alsa.
 
 ## License
 
-These configuration files are licensed, to anybody obtaining a copy, under the terms of the BSD-3 license. See the LICENSE.asahi file.
+These configuration files are licensed, to anybody obtaining a copy, under the terms of the BSD-3 license. See the LICENSE file.
 
 ## J616s development reference
 
